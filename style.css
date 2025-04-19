@@ -1,0 +1,508 @@
+/* Importação Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Didact+Gothic&family=Lilita+One&family=Patua+One&family=Reem+Kufi+Fun:wght@400..700&display=swap');
+
+/* menu */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif; 
+}
+
+
+.menu_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px;
+    height: 80px;
+}
+
+.logo {
+    width: 40%;
+    height: 75px;
+    text-align: center;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 280px;
+    height: 50px;
+}
+
+.menu {
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+    height: 85px;
+    margin-top: 16px;
+}
+
+.menu nav a {
+    color: #8b440a;
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 20px;
+    justify-content: center;
+    display: inline-block;
+    position: relative; 
+}
+
+.menu a:hover {
+    color: #e3ff67
+}
+
+/*Rodapé*/
+
+.rodape {
+    background-color: #fff;
+    color: #ffffff; 
+    height: 90px;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_rodape {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.icones {
+    width: 100%;
+    height: 60%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.fa-facebook {
+    font-size: 32px;
+    text-align: center;
+    color: #8b440a;
+    margin-left: 20px;
+}
+
+.fa-instagram, .fa-whatsapp {
+    text-align: center;
+    font-size: 35px;
+    color: #8b440a;
+    margin-left: 20px;
+}
+
+.contato-footer {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #8b440a;
+}
+
+.rodape-direitos {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #8b440a;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.linha {
+    margin: 0 auto; 
+    margin-top: 10px;
+    text-align: center; 
+    width: 80%;
+    height: 2px;
+}
+
+/* Página inicial */
+
+.img-delivery {
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px 0 50px ;
+}
+
+.img-delivery img {
+    width: 100%;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+.botoes-delivery button {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    margin-top: -100px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.botoes-delivery button:hover {
+    height: 55px;
+}
+
+.linha-cards {
+    margin: 0 auto; 
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center; 
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: #8b440a;
+    opacity: 100;
+}
+
+.container-cards-index {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 20px;
+    padding: 30px;
+    top: 20px;
+}
+
+.cards-index {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 320px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+    margin: auto;
+}
+.text-cards-index {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.text-cards-index span {
+    font-size: 18px;
+    color: #8b440a;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+}
+
+.cards-index p {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Outfit', sans-serif;
+    margin: 20px 20px 20px 20px; /* topo, direita, baixo, esquerda */
+    text-align: center;
+}
+
+/* Página - Sobre */
+
+.sobre {
+    background: #fff;
+}
+
+.container-sobre {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.titulo-basico {
+    margin-left: 50px;
+    color: #8b440a;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 50px;
+    font-family: "Patua One", serif;
+}
+
+.texto-historia {
+    width: 45%;
+}
+
+.imagem-fachada {
+    width: 45%;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.imagem-fachada img {
+    width: 494px;
+    height: 494x;
+    border-radius: 10px;
+}
+
+
+.texto-historia p{
+    margin-left: 50px;
+    margin-top: 10px;
+    line-height: 1.45;
+    color:#8b440a;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+/* Cardápio */
+
+.cardapio {
+    background: #fff;
+}
+
+.linha-cards {
+    margin: 0 auto; 
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center; 
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: #8b440a;
+    opacity: 100;
+}
+
+.container-cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 20px;
+    padding: 30px;
+    top: 20px;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 320px;
+    height: 170px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+    margin: auto;
+}
+
+.cards:hover {
+    height: 320px;
+}
+
+.img, .img-acc {
+    position: absolute;
+    width: 220px; 
+    height: 130px;
+    transition: 0.5s;
+}
+
+.cards:hover .img, .cards:hover .img-acc {
+    top: -40px;
+    transform: scale(0.85);
+}
+
+.img img, .img-acc img {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.text-cards {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.cards:hover .text-cards {
+    top: 80px;
+    height: 220px;
+}
+
+.text-cards span {
+    font-size: 18px;
+    color: #8b440a;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+}
+
+.text-cards p {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 5px;
+}
+
+.img-menu {
+    padding: 0 10px;
+}
+
+.img-menu img {
+    width: 100%;
+    display: block;
+}
+
+
+/*Página - Contato*/
+ 
+.contato {
+    background: #fff;
+    background-size: auto 100%; 
+    background-position: center top;
+}
+
+.cards-contatos {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 3%;
+}
+
+.telefone, .endereco, .email, .trabalhe-conosco {
+    width: 300px;
+    margin: 5px;
+    border: 1px solid #b9b9b9;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.fa-square-phone, .fa-location-dot, .fa-envelope, .fa-briefcase {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    color:#8b440a;
+}
+
+.fa-location-dot {
+    margin-top: 25px;
+}
+
+.cards-contatos span {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Patua One", serif;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.cards-contatos p {
+    font-size: 18px;
+    color: #8b440a;
+    font-family: 'Outfit', sans-serif;
+    padding: 20px;
+}   
+
+
+.fale-conosco {
+    font-size: 24px;
+    font-family: "Patua One", serif;
+    color: #8b440a;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+
+.nome-label, .celular-label, .email-label, .mensagem-label{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.custom-input {
+    border: 1px solid #000000;
+    border-radius: 20px; 
+    padding: 10px;
+    height: 30px;
+}
+
+.custom-textarea {
+    border: 1px solid #000000;
+    border-radius: 20px; 
+    padding: 10px;
+    height: 90px;
+}
+
+.btn-primary {
+    background-color: #ffffff; 
+    border-color: #000000; 
+    color: #000000 ;
+    padding: 5px 20px;
+    font-size: 12px;
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+
+}
+
+.localizacao iframe {
+    width: 100%;
+    height: 350px;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
